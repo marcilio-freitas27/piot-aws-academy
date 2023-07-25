@@ -30,6 +30,10 @@
 
 8. Analyze IoT Data with AWS IoT Analytics
 
+    ![iot](image2.png)
+
+    ![core](image3.png)
+
     O Capítulo 8 trata da análise de dados para dispositivos de internet das coisas (IoT) o AWS Iot Analytis e o AWS IoT Core. Com essa tecnologia é possível filtrar, transformar e enriquecer dados. 
     Channels ->  Data Store -> Pipelines -> Datasets
 
@@ -40,6 +44,12 @@
 A prática deste capítulo propõe a captura de logs de um servidor web em dois navegadores diferentes enquanto se navega entre as suas páginas, utilizando o Amazon Kinesis Data Firehose Service, injetando esses dados no Amazon Elastic Search Service, e preparando a visualização desses dados no Kibana. 
 
 O aws forcene instâncias de servidores e uma delas é a demo do kibana. Nas suas propriedades de rede podemos pegar o seu IPV4 público e fazer o login com as credências fornecidas pelo capítulo atual do curso. Após o lógin, utilizamos textos que informam o methodo http utlizado e dados do tipos json, para excluir logs antigos do servidor web e acrescentar as novas pesquisas. Esses dados contêm os campos e valores aos quais serão montados nos gráficos do Kibana. No Kibana, escolhemos as cores, qual o tipo de gráfico e os campos/valores que serão exibidos. 
+
+2. Capítulo 8
+
+A prática deste capítulo propõe a criação de canais, armazenamentos de dados, tratamentos dos dados e a configuração dos dados para que posssamos fazer consultas que filtre, transforme e enriqueça os dados coletados de uma dispositivo de iot e exibilos com a ajuda do Python no sistema operacional Windows, Linux ou MacOs, além de carregar os dados utilizando o protocolo de mensageria para IoT, o Mqqt.
+
+![cenario-lab-8](cenario.png)
 
 ### Quais as principais lições apreendidas do curso?
 
