@@ -20,13 +20,18 @@
 
 7. Analyze Streaming Data with Amazon Kinesis Data Firehose, Amazon Elasticsearch Service, and Kibana
 
+    ![Lab 7](image.png)
+
     No capítulo 7 deste curso, aprendemos sobre como capturar os dados de stream, prepará-los para uma análise e exibir os resultados em gráficos. O Amazon Kinesis Data Firehose é o responsável pela captura dos dados de stream, que são dados que vão usar um dos 5 V's comentados durante o curso: a velocidade. 
     
     O Stream possui dados que precisam ser tratados em tempo real, como os vídeos e os logs de servidores web por exemplo. O Firehose também servirá como um injetor de dados que serão recebidos através do Elastic Searsh, ao qual será a ponte entre o Kinesis e o Kibana, que exibirá os dados em gráficos. 
 
     Alguns serviços da Amazon tiveram seus nomes alterados, como é o caso do Elastic Search. Por ser um serviço que possui a patente desse nome, a AWS criou o seu produto "open source" chamado Amazon OpenSearch Service.
 
-8.
+8. Analyze IoT Data with AWS IoT Analytics
+
+    O Capítulo 8 trata da análise de dados para dispositivos de internet das coisas (IoT) o AWS Iot Analytis e o AWS IoT Core. Com essa tecnologia é possível filtrar, transformar e enriquecer dados. 
+    Channels ->  Data Store -> Pipelines -> Datasets
 
 ### Explique três exemplos de atividades que você realizou no laboratório prático?
 
